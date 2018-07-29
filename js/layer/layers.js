@@ -1,7 +1,7 @@
 /** Add layers to the map
  */
 
-import map from './map';
+import map from '../map';
 import TileLayer from 'ol/layer/Tile.js';
 import Stamen from 'ol/source/Stamen.js';
 import OSM from 'ol/source/OSM';

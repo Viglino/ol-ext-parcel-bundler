@@ -2,7 +2,7 @@
  * Add a swipe control to the map
  */
 import map from '../map'
-import {osm, stamen, watercolor, labels} from '../layers'
+import {osm, stamen, watercolor, labels} from '../layer/layers'
 import './swipe.css'
 
 import Swipe from 'ol-ext/control/Swipe'

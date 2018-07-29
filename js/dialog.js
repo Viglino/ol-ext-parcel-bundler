@@ -11,15 +11,7 @@ const d = $("<div>").attr('id','dialog')
       })
       .appendTo('body');
 
-const closeBox = $("<i>").addClass("fa fa-times")
-      .css({
-        "float": "right",
-        "top": 0,
-        "right": 0,
-        "padding": ".5em",
-        "margin": "-1em",
-        "cursor": "pointer"
-      })
+const closeBox = $("<i>").addClass("closeBox")
       .click(() => { d.hide(); })
       .appendTo(d);
 const content = $("<div>").appendTo(d);

@@ -16,7 +16,7 @@ if (module.hot) {
 
 /* Create a map with layers */
 import './js/map'
-import './js/layers'
+import './js/layer/layers'
 
 /* Controls */
 import './js/control/permalink'
@@ -31,6 +31,7 @@ import './js/interaction/select'
 /* Interactions */
 
 /* Filters */
+import './js/filter/crop'
 
 /* Source/layer */
 

@@ -5,7 +5,7 @@ import Popup from 'ol-ext/overlay/Popup'
 const popup = new Popup({
   popupClass: "default", //"tooltips", "warning" "black" "default", "tips", "shadow",
   closeBox: true,
-  onshow: function(){ console.log("You opened the box"); },
+  onshow: function(){ console.log("You open the box"); },
   onclose: function(){ console.log("You close the box"); },
   positioning: 'auto',
   autoPan: true,

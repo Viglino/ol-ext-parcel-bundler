@@ -42,19 +42,35 @@ body, button {
 #dialog p {
   margin: .5em 0;
 }
-#dialog .fa-times {
-  float: right;
-  top: 0px;
-  right: 0px;
-  padding: 0.5em;
-  margin: -1em;
-  cursor: pointer;
-  text-shadow: 1px 0px 4px #fff, -1px 0px 4px #fff, 0px -1px 4px #fff, 0px 1px 4px #fff;
+#dialog .closeBox {
+  position: absolute;
+  top:0;
+  right: 0;
+  font-size: 2em;
+  margin: 0;
+  background: none;
   color: #369;
+  padding: 0;
+  width: 1em;
+  height: 1em;
+  font-weight: bold;
+  font-style: normal;
+  cursor: pointer;
 }
-#dialog .fa-times:hover {
-  text-shadow: 1px 0px 4px #369, -1px 0px 4px #369, 0px -1px 4px #369, 0px 1px 4px #369;
-  color: #fff;
+#dialog .closeBox:hover {
+  transform: scale(1.5);
+}
+#dialog .closeBox:before {
+  content: "\00d7";
+  font-size: 1.5em;
+  top: 50%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  line-height: 1em;
+  margin: -0.5em 0;
+  position: absolute;
 }
 #dialog .buttons {
   text-align: right;
@@ -96,15 +112,6 @@ button.button:hover {
   height: .8em;
   padding-bottom: .1em;
 }
-#map .ol-layerswitcher label {
-  font-family: 'Reenie Beanie', cursive;
-  font-size: 1.6em;
-  padding-left: 1.2em;
-  height: 1em;
-  line-height: .9em;
-}
-#map .ol-layerswitcher label:before,
-#map .ol-layerswitcher label:after {
-  font-size: .6em;
-  vertical-align: middle;
+#map button{
+  outline: 0;
 }
