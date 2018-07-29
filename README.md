@@ -18,10 +18,13 @@ npm start
 The web server is starting up on port 1234 and if you open up URL http://localhost:1234 in the browser you should be able to see the output result.
 The page will be reload on each modification to reflect the changes.
 
+If you notice troubleshooting when building the project, remove the `./.cache` and `./.dist` folder manually and restart the command to clear the cache.
+
 ### To create a production-ready bundle
 ````
 npm run build
 ````
+The project will be created in the `./build` folder.
 
 ## Bugs
 
