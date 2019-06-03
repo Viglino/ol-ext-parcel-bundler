@@ -2,7 +2,7 @@
  * Add a LayerSwitcher control to the map
  */
 import map from '../map'
-import './layerswitcher.css'
+import 'ol-ext/control/LayerSwitcher.css'
 
 /* LayerSwitcher control */
 import LayerSwitcher from 'ol-ext/control/LayerSwitcher'
