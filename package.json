@@ -1,12 +1,12 @@
 {
   "name": "ol-ext-parcel-bundler",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "ol-ext + parcel bundler",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel index.html --out-dir ./.dist",
-    "build": "parcel build --public-url . --out-dir ./build index.html"
+    "dev": "parcel src/index.html",
+    "prebuild": "npx rimraf dist",
+    "build": "parcel build --public-url ./ src/index.html --log-level verbose --detailed-report"
   },
   "keywords": [
     "ol",
@@ -16,7 +16,8 @@
   "author": "Viglino",
   "license": "MIT",
   "devDependencies": {
-    "parcel-bundler": "^1.9.4"
+    "parcel": "latest",
+    "parcel-transformer-geojson": "^0.0.4"
   },
   "dependencies": {
     "ol": "^5.0.3",
