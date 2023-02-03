@@ -4,7 +4,7 @@
 import 'ol/ol.css'
 import 'ol-ext/dist/ol-ext.css'
 
-/* Force fullpage reload on module changes 
+/* Force fullpage reload on module changes
  * to prevent side effects on the map.
  */
 if (module.hot) {
@@ -20,7 +20,7 @@ import './js/layer/layers'
 
 /* Controls */
 import './js/control/permalink'
-// import './js/control/swipe'
+// import './src/js/control/swipe'
 import './js/control/layerswitcher'
 import './js/control/search'
 
