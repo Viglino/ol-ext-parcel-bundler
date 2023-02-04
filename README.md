@@ -2,7 +2,7 @@
 
 [ol-ext](https://github.com/Viglino/ol-ext) playground to test intégration in a web application bundler.
 
-[See examples online!](https://viglino.github.io/ol-ext-parcel-bundler/build/)
+[See examples online!](https://viglino.github.io/ol-ext-parcel-bundler/dist/)
 
 ## Getting Started
 
